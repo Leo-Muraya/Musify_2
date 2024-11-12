@@ -1,230 +1,126 @@
 {
-    "artists": [
-      {
-        "artist_name": "The Weeknd",
-        "songs": [
-          {
-            "title": "Blinding Lights",
-            "album": "After Hours",
-            "release_year": 2020,
-            "genre": "Pop",
-            "duration": 200,
-            "image_url": "https://www.google.com/imgres?q=weeknd&imgurl=https%3A%2F%2Few.com%2Fthmb%2FIVjmtfkRu2ZP4GDYmiFkPUe7yTc%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FWeeknd-d4fb08e62a924691a18af068d9bfa972.jpg&imgrefurl=https%3A%2F%2Few.com%2Fmusic%2Fmusic-reviews%2Fthe-weeknd-ew-review-after-hours%2F&docid=SltTeoQMHiGCDM&tbnid=I0lY2bJ69eU9DM&vet=12ahUKEwjYiu_MrtaJAxWq3wIHHWRzNNEQM3oECB0QAA..i&w=1500&h=1000&hcb=2&ved=2ahUKEwjYiu_MrtaJAxWq3wIHHWRzNNEQM3oECB0QAA"
-          },
-          {
-            "title": "Save Your Tears",
-            "album": "After Hours",
-            "release_year": 2020,
-            "genre": "Pop",
-            "duration": 215,
-            "image_url": "https://www.google.com/imgres?q=weeknd&imgurl=https%3A%2F%2Few.com%2Fthmb%2FIVjmtfkRu2ZP4GDYmiFkPUe7yTc%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FWeeknd-d4fb08e62a924691a18af068d9bfa972.jpg&imgrefurl=https%3A%2F%2Few.com%2Fmusic%2Fmusic-reviews%2Fthe-weeknd-ew-review-after-hours%2F&docid=SltTeoQMHiGCDM&tbnid=I0lY2bJ69eU9DM&vet=12ahUKEwjYiu_MrtaJAxWq3wIHHWRzNNEQM3oECB0QAA..i&w=1500&h=1000&hcb=2&ved=2ahUKEwjYiu_MrtaJAxWq3wIHHWRzNNEQM3oECB0QAA"
-          },
-          {
-            "title": "Heartless",
-            "album": "After Hours",
-            "release_year": 2020,
-            "genre": "Pop",
-            "duration": 181,
-            "image_url": "https://www.google.com/imgres?q=weeknd&imgurl=https%3A%2F%2Few.com%2Fthmb%2FIVjmtfkRu2ZP4GDYmiFkPUe7yTc%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FWeeknd-d4fb08e62a924691a18af068d9bfa972.jpg&imgrefurl=https%3A%2F%2Few.com%2Fmusic%2Fmusic-reviews%2Fthe-weeknd-ew-review-after-hours%2F&docid=SltTeoQMHiGCDM&tbnid=I0lY2bJ69eU9DM&vet=12ahUKEwjYiu_MrtaJAxWq3wIHHWRzNNEQM3oECB0QAA..i&w=1500&h=1000&hcb=2&ved=2ahUKEwjYiu_MrtaJAxWq3wIHHWRzNNEQM3oECB0QAA"
-          },
-          {
-            "title": "In Your Eyes",
-            "album": "After Hours",
-            "release_year": 2020,
-            "genre": "Pop",
-            "duration": 220,
-            "image_url": "https://www.google.com/imgres?q=weeknd&imgurl=https%3A%2F%2Few.com%2Fthmb%2FIVjmtfkRu2ZP4GDYmiFkPUe7yTc%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FWeeknd-d4fb08e62a924691a18af068d9bfa972.jpg&imgrefurl=https%3A%2F%2Few.com%2Fmusic%2Fmusic-reviews%2Fthe-weeknd-ew-review-after-hours%2F&docid=SltTeoQMHiGCDM&tbnid=I0lY2bJ69eU9DM&vet=12ahUKEwjYiu_MrtaJAxWq3wIHHWRzNNEQM3oECB0QAA..i&w=1500&h=1000&hcb=2&ved=2ahUKEwjYiu_MrtaJAxWq3wIHHWRzNNEQM3oECB0QAA"
-          },
-          {
-            "title": "Can't Feel My Face",
-            "album": "Beauty Behind the Madness",
-            "release_year": 2015,
-            "genre": "Pop",
-            "duration": 213,
-            "image_url": "https://www.google.com/imgres?q=weeknd&imgurl=https%3A%2F%2Few.com%2Fthmb%2FIVjmtfkRu2ZP4GDYmiFkPUe7yTc%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FWeeknd-d4fb08e62a924691a18af068d9bfa972.jpg&imgrefurl=https%3A%2F%2Few.com%2Fmusic%2Fmusic-reviews%2Fthe-weeknd-ew-review-after-hours%2F&docid=SltTeoQMHiGCDM&tbnid=I0lY2bJ69eU9DM&vet=12ahUKEwjYiu_MrtaJAxWq3wIHHWRzNNEQM3oECB0QAA..i&w=1500&h=1000&hcb=2&ved=2ahUKEwjYiu_MrtaJAxWq3wIHHWRzNNEQM3oECB0QAA"
-          }
-        ]
-      },
-      {
-        "artist_name": "Dua Lipa",
-        "songs": [
-          {
-            "title": "Levitating",
-            "album": "Future Nostalgia",
-            "release_year": 2020,
-            "genre": "Pop",
-            "duration": 203,
-            "image_url": "https://www.google.com/imgres?q=dua%20lipa&imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fdualipa%2Fimages%2F9%2F98%2FDUA-LIPA-ALBUM-DUA-LIPA-WARNER-MUSIC-2017.jpg%2Frevision%2Flatest%3Fcb%3D20240809174018&imgrefurl=https%3A%2F%2Fdualipa.fandom.com%2Fwiki%2FDua_Lipa_(album)&docid=SiKIf2itFKa_VM&tbnid=5HdpLVzWQ9eTWM&vet=12ahUKEwjzwZHqr9aJAxVr1AIHHUngA6EQM3oECEwQAA..i&w=2607&h=2607&hcb=2&ved=2ahUKEwjzwZHqr9aJAxVr1AIHHUngA6EQM3oECEwQAA"
-          },
-          {
-            "title": "Don't Start Now",
-            "album": "Future Nostalgia",
-            "release_year": 2020,
-            "genre": "Pop",
-            "duration": 183,
-            "image_url": "https://www.google.com/imgres?q=dua%20lipa&imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fdualipa%2Fimages%2F9%2F98%2FDUA-LIPA-ALBUM-DUA-LIPA-WARNER-MUSIC-2017.jpg%2Frevision%2Flatest%3Fcb%3D20240809174018&imgrefurl=https%3A%2F%2Fdualipa.fandom.com%2Fwiki%2FDua_Lipa_(album)&docid=SiKIf2itFKa_VM&tbnid=5HdpLVzWQ9eTWM&vet=12ahUKEwjzwZHqr9aJAxVr1AIHHUngA6EQM3oECEwQAA..i&w=2607&h=2607&hcb=2&ved=2ahUKEwjzwZHqr9aJAxVr1AIHHUngA6EQM3oECEwQAA"
-          },
-          {
-            "title": "Physical",
-            "album": "Future Nostalgia",
-            "release_year": 2020,
-            "genre": "Pop",
-            "duration": 193,
-            "image_url": "https://www.google.com/imgres?q=dua%20lipa&imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fdualipa%2Fimages%2F9%2F98%2FDUA-LIPA-ALBUM-DUA-LIPA-WARNER-MUSIC-2017.jpg%2Frevision%2Flatest%3Fcb%3D20240809174018&imgrefurl=https%3A%2F%2Fdualipa.fandom.com%2Fwiki%2FDua_Lipa_(album)&docid=SiKIf2itFKa_VM&tbnid=5HdpLVzWQ9eTWM&vet=12ahUKEwjzwZHqr9aJAxVr1AIHHUngA6EQM3oECEwQAA..i&w=2607&h=2607&hcb=2&ved=2ahUKEwjzwZHqr9aJAxVr1AIHHUngA6EQM3oECEwQAA"
-          },
-          {
-            "title": "Break My Heart",
-            "album": "Future Nostalgia",
-            "release_year": 2020,
-            "genre": "Pop",
-            "duration": 200,
-            "image_url": "https://www.google.com/imgres?q=dua%20lipa&imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fdualipa%2Fimages%2F9%2F98%2FDUA-LIPA-ALBUM-DUA-LIPA-WARNER-MUSIC-2017.jpg%2Frevision%2Flatest%3Fcb%3D20240809174018&imgrefurl=https%3A%2F%2Fdualipa.fandom.com%2Fwiki%2FDua_Lipa_(album)&docid=SiKIf2itFKa_VM&tbnid=5HdpLVzWQ9eTWM&vet=12ahUKEwjzwZHqr9aJAxVr1AIHHUngA6EQM3oECEwQAA..i&w=2607&h=2607&hcb=2&ved=2ahUKEwjzwZHqr9aJAxVr1AIHHUngA6EQM3oECEwQAA"
-          },
-          {
-            "title": "Hallucinate",
-            "album": "Future Nostalgia",
-            "release_year": 2020,
-            "genre": "Pop",
-            "duration": 211,
-            "image_url": "https://www.google.com/imgres?q=dua%20lipa&imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fdualipa%2Fimages%2F9%2F98%2FDUA-LIPA-ALBUM-DUA-LIPA-WARNER-MUSIC-2017.jpg%2Frevision%2Flatest%3Fcb%3D20240809174018&imgrefurl=https%3A%2F%2Fdualipa.fandom.com%2Fwiki%2FDua_Lipa_(album)&docid=SiKIf2itFKa_VM&tbnid=5HdpLVzWQ9eTWM&vet=12ahUKEwjzwZHqr9aJAxVr1AIHHUngA6EQM3oECEwQAA..i&w=2607&h=2607&hcb=2&ved=2ahUKEwjzwZHqr9aJAxVr1AIHHUngA6EQM3oECEwQAA"
-          }
-        ]
-      },
-      {
-        "artist_name": "Justin Bieber",
-        "songs": [
-          {
-            "title": "Peaches",
-            "album": "Justice",
-            "release_year": 2021,
-            "genre": "R&B",
-            "duration": 198,
-            "image_url": "https://www.google.com/imgres?q=justin%20bieber&imgurl=https%3A%2F%2Fcdns-images.dzcdn.net%2Fimages%2Fcover%2F4d12bf5941634bb201858ac4e0a3a08e%2F0x1900-000000-80-0-0.jpg&imgrefurl=https%3A%2F%2Fwww.deezer.com%2Fen%2Fartist%2F288166&docid=SeRVzMt3EOLGvM&tbnid=xuUeXoXoon_-LM&vet=12ahUKEwj3yI2PsNaJAxUf0AIHHVv6I2QQM3oECE0QAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwj3yI2PsNaJAxUf0AIHHVv6I2QQM3oECE0QAA"
-          },
-          {
-            "title": "Yummy",
-            "album": "Changes",
-            "release_year": 2020,
-            "genre": "Pop",
-            "duration": 210,
-            "image_url": "https://www.google.com/imgres?q=justin%20bieber&imgurl=https%3A%2F%2Fcdns-images.dzcdn.net%2Fimages%2Fcover%2F4d12bf5941634bb201858ac4e0a3a08e%2F0x1900-000000-80-0-0.jpg&imgrefurl=https%3A%2F%2Fwww.deezer.com%2Fen%2Fartist%2F288166&docid=SeRVzMt3EOLGvM&tbnid=xuUeXoXoon_-LM&vet=12ahUKEwj3yI2PsNaJAxUf0AIHHVv6I2QQM3oECE0QAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwj3yI2PsNaJAxUf0AIHHVv6I2QQM3oECE0QAA"
-          },
-          {
-            "title": "Intentions",
-            "album": "Changes",
-            "release_year": 2020,
-            "genre": "Pop",
-            "duration": 205,
-            "image_url": "https://www.google.com/imgres?q=justin%20bieber&imgurl=https%3A%2F%2Fcdns-images.dzcdn.net%2Fimages%2Fcover%2F4d12bf5941634bb201858ac4e0a3a08e%2F0x1900-000000-80-0-0.jpg&imgrefurl=https%3A%2F%2Fwww.deezer.com%2Fen%2Fartist%2F288166&docid=SeRVzMt3EOLGvM&tbnid=xuUeXoXoon_-LM&vet=12ahUKEwj3yI2PsNaJAxUf0AIHHVv6I2QQM3oECE0QAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwj3yI2PsNaJAxUf0AIHHVv6I2QQM3oECE0QAA"
-          },
-          {
-            "title": "Holy",
-            "album": "Justice",
-            "release_year": 2020,
-            "genre": "Pop",
-            "duration": 184,
-            "image_url": "https://www.google.com/imgres?q=justin%20bieber&imgurl=https%3A%2F%2Fcdns-images.dzcdn.net%2Fimages%2Fcover%2F4d12bf5941634bb201858ac4e0a3a08e%2F0x1900-000000-80-0-0.jpg&imgrefurl=https%3A%2F%2Fwww.deezer.com%2Fen%2Fartist%2F288166&docid=SeRVzMt3EOLGvM&tbnid=xuUeXoXoon_-LM&vet=12ahUKEwj3yI2PsNaJAxUf0AIHHVv6I2QQM3oECE0QAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwj3yI2PsNaJAxUf0AIHHVv6I2QQM3oECE0QAA"
-          },
-          {
-            "title": "Anyone",
-            "album": "Justice",
-            "release_year": 2021,
-            "genre": "Pop",
-            "duration": 182,
-            "image_url": "https://www.google.com/imgres?q=justin%20bieber&imgurl=https%3A%2F%2Fcdns-images.dzcdn.net%2Fimages%2Fcover%2F4d12bf5941634bb201858ac4e0a3a08e%2F0x1900-000000-80-0-0.jpg&imgrefurl=https%3A%2F%2Fwww.deezer.com%2Fen%2Fartist%2F288166&docid=SeRVzMt3EOLGvM&tbnid=xuUeXoXoon_-LM&vet=12ahUKEwj3yI2PsNaJAxUf0AIHHVv6I2QQM3oECE0QAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwj3yI2PsNaJAxUf0AIHHVv6I2QQM3oECE0QAA"
-          }
-        ]
-      },
-      {
-        "artist_name": "Olivia Rodrigo",
-        "songs": [
-          {
-            "title": "Good 4 U",
-            "album": "SOUR",
-            "release_year": 2021,
-            "genre": "Pop Rock",
-            "duration": 178,
-            "image_url": "https://www.google.com/imgres?q=olivia%20rodrigo&imgurl=https%3A%2F%2Fmedia.glamour.com%2Fphotos%2F60afe10e10793d699b3144cd%2Fmaster%2Fw_2560%252Cc_limit%2FSOUR_FINAL.jpg&imgrefurl=https%3A%2F%2Fwww.glamour.com%2Fstory%2Ffor-geriatric-millennials-who-love-olivia-rodrigo-its-brutal-out-here&docid=5s6uFcaEyBFHTM&tbnid=EqfGhbZgAx9gXM&vet=12ahUKEwjrn7irsNaJAxWm-gIHHQbPJp8QM3oECGsQAA..i&w=2560&h=2560&hcb=2&ved=2ahUKEwjrn7irsNaJAxWm-gIHHQbPJp8QM3oECGsQAA"
-          },
-          {
-            "title": "Drivers License",
-            "album": "SOUR",
-            "release_year": 2021,
-            "genre": "Pop",
-            "duration": 242,
-            "image_url": "https://www.google.com/imgres?q=olivia%20rodrigo&imgurl=https%3A%2F%2Fmedia.glamour.com%2Fphotos%2F60afe10e10793d699b3144cd%2Fmaster%2Fw_2560%252Cc_limit%2FSOUR_FINAL.jpg&imgrefurl=https%3A%2F%2Fwww.glamour.com%2Fstory%2Ffor-geriatric-millennials-who-love-olivia-rodrigo-its-brutal-out-here&docid=5s6uFcaEyBFHTM&tbnid=EqfGhbZgAx9gXM&vet=12ahUKEwjrn7irsNaJAxWm-gIHHQbPJp8QM3oECGsQAA..i&w=2560&h=2560&hcb=2&ved=2ahUKEwjrn7irsNaJAxWm-gIHHQbPJp8QM3oECGsQAA"
-          },
-          {
-            "title": "Deja Vu",
-            "album": "SOUR",
-            "release_year": 2021,
-            "genre": "Pop",
-            "duration": 214,
-            "image_url": "https://www.google.com/imgres?q=olivia%20rodrigo&imgurl=https%3A%2F%2Fmedia.glamour.com%2Fphotos%2F60afe10e10793d699b3144cd%2Fmaster%2Fw_2560%252Cc_limit%2FSOUR_FINAL.jpg&imgrefurl=https%3A%2F%2Fwww.glamour.com%2Fstory%2Ffor-geriatric-millennials-who-love-olivia-rodrigo-its-brutal-out-here&docid=5s6uFcaEyBFHTM&tbnid=EqfGhbZgAx9gXM&vet=12ahUKEwjrn7irsNaJAxWm-gIHHQbPJp8QM3oECGsQAA..i&w=2560&h=2560&hcb=2&ved=2ahUKEwjrn7irsNaJAxWm-gIHHQbPJp8QM3oECGsQAA"
-          },
-          {
-            "title": "Traitor",
-            "album": "SOUR",
-            "release_year": 2021,
-            "genre": "Pop",
-            "duration": 227,
-            "image_url": "https://www.google.com/imgres?q=olivia%20rodrigo&imgurl=https%3A%2F%2Fmedia.glamour.com%2Fphotos%2F60afe10e10793d699b3144cd%2Fmaster%2Fw_2560%252Cc_limit%2FSOUR_FINAL.jpg&imgrefurl=https%3A%2F%2Fwww.glamour.com%2Fstory%2Ffor-geriatric-millennials-who-love-olivia-rodrigo-its-brutal-out-here&docid=5s6uFcaEyBFHTM&tbnid=EqfGhbZgAx9gXM&vet=12ahUKEwjrn7irsNaJAxWm-gIHHQbPJp8QM3oECGsQAA..i&w=2560&h=2560&hcb=2&ved=2ahUKEwjrn7irsNaJAxWm-gIHHQbPJp8QM3oECGsQAA"
-          },
-          {
-            "title": "Brutal",
-            "album": "SOUR",
-            "release_year": 2021,
-            "genre": "Alternative",
-            "duration": 150,
-            "image_url": "https://www.google.com/imgres?q=olivia%20rodrigo&imgurl=https%3A%2F%2Fmedia.glamour.com%2Fphotos%2F60afe10e10793d699b3144cd%2Fmaster%2Fw_2560%252Cc_limit%2FSOUR_FINAL.jpg&imgrefurl=https%3A%2F%2Fwww.glamour.com%2Fstory%2Ffor-geriatric-millennials-who-love-olivia-rodrigo-its-brutal-out-here&docid=5s6uFcaEyBFHTM&tbnid=EqfGhbZgAx9gXM&vet=12ahUKEwjrn7irsNaJAxWm-gIHHQbPJp8QM3oECGsQAA..i&w=2560&h=2560&hcb=2&ved=2ahUKEwjrn7irsNaJAxWm-gIHHQbPJp8QM3oECGsQAA"
-          }
-        ]
-      },
-      {
-        "artist_name": "Post Malone",
-        "songs": [
-          {
-            "title": "Circles",
-            "album": "Hollywood's Bleeding",
-            "release_year": 2019,
-            "genre": "Pop",
-            "duration": 215,
-            "image_url": "https://www.google.com/imgres?q=post%20malone&imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BN2VmNDI3OWUtMGEyYS00Njg5LTlkNDUtOTI1MDk5MjdmYmExXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg&imgrefurl=https%3A%2F%2Fwww.imdb.com%2Fname%2Fnm7970428%2F&docid=iUCo-T1Daap0UM&tbnid=MATMD39-035RCM&vet=12ahUKEwj65vnDsNaJAxUv9AIHHcZwJCYQM3oECBcQAA..i&w=1000&h=1000&hcb=2&ved=2ahUKEwj65vnDsNaJAxUv9AIHHcZwJCYQM3oECBcQAA"
-          },
-          {
-            "title": "Sunflower",
-            "album": "Spider-Man: Into the Spider-Verse",
-            "release_year": 2018,
-            "genre": "Hip-Hop",
-            "duration": 158,
-            "image_url": "https://www.google.com/imgres?q=post%20malone&imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BN2VmNDI3OWUtMGEyYS00Njg5LTlkNDUtOTI1MDk5MjdmYmExXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg&imgrefurl=https%3A%2F%2Fwww.imdb.com%2Fname%2Fnm7970428%2F&docid=iUCo-T1Daap0UM&tbnid=MATMD39-035RCM&vet=12ahUKEwj65vnDsNaJAxUv9AIHHcZwJCYQM3oECBcQAA..i&w=1000&h=1000&hcb=2&ved=2ahUKEwj65vnDsNaJAxUv9AIHHcZwJCYQM3oECBcQAA"
-          },
-          {
-            "title": "Wow.",
-            "album": "Hollywood's Bleeding",
-            "release_year": 2019,
-            "genre": "Hip-Hop",
-            "duration": 155,
-            "image_url": "https://www.google.com/imgres?q=post%20malone&imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BN2VmNDI3OWUtMGEyYS00Njg5LTlkNDUtOTI1MDk5MjdmYmExXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg&imgrefurl=https%3A%2F%2Fwww.imdb.com%2Fname%2Fnm7970428%2F&docid=iUCo-T1Daap0UM&tbnid=MATMD39-035RCM&vet=12ahUKEwj65vnDsNaJAxUv9AIHHcZwJCYQM3oECBcQAA..i&w=1000&h=1000&hcb=2&ved=2ahUKEwj65vnDsNaJAxUv9AIHHcZwJCYQM3oECBcQAA"
-          },
-          {
-            "title": "Goodbyes",
-            "album": "Hollywood's Bleeding",
-            "release_year": 2019,
-            "genre": "Hip-Hop",
-            "duration": 175,
-            "image_url": "https://www.google.com/imgres?q=post%20malone&imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BN2VmNDI3OWUtMGEyYS00Njg5LTlkNDUtOTI1MDk5MjdmYmExXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg&imgrefurl=https%3A%2F%2Fwww.imdb.com%2Fname%2Fnm7970428%2F&docid=iUCo-T1Daap0UM&tbnid=MATMD39-035RCM&vet=12ahUKEwj65vnDsNaJAxUv9AIHHcZwJCYQM3oECBcQAA..i&w=1000&h=1000&hcb=2&ved=2ahUKEwj65vnDsNaJAxUv9AIHHcZwJCYQM3oECBcQAA"
-          },
-          {
-            "title": "Rockstar",
-            "album": "Beerbongs & Bentleys",
-            "release_year": 2018,
-            "genre": "Hip-Hop",
-            "duration": 218,
-            "image_url": "https://www.google.com/imgres?q=post%20malone&imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BN2VmNDI3OWUtMGEyYS00Njg5LTlkNDUtOTI1MDk5MjdmYmExXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg&imgrefurl=https%3A%2F%2Fwww.imdb.com%2Fname%2Fnm7970428%2F&docid=iUCo-T1Daap0UM&tbnid=MATMD39-035RCM&vet=12ahUKEwj65vnDsNaJAxUv9AIHHcZwJCYQM3oECBcQAA..i&w=1000&h=1000&hcb=2&ved=2ahUKEwj65vnDsNaJAxUv9AIHHcZwJCYQM3oECBcQAA"
-          }
-        ]
-      }
-      
-    ]
-  }
+  "artists": [
+  { "id": 1, "name": "Ed Sheeran", "picture": "/https://res.cloudinary.com/dibilugya/image/upload/v1731437886/ed_eonptz.jpg" },
+  { "id": 2, "name": "Justin Bieber", "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731415870/Justin_d3rldw.jpg" },
+  { "id": 3, "name": "Drake", "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731416155/drake_icargh.jpg" },
+  { "id": 4, "name": "Ariana Grande", "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437852/ariana_gtqrna.jpg" },
+  { "id": 5, "name": "Taylor Swift", "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437877/taylor_petewc.jpg" },
+  { "id": 6, "name": "Beyonce", "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437852/beyonce_bdtzhu.jpg" },
+  { "id": 7, "name": "The Weeknd", "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731415649/wikendi_jayrnd.jpg" },
+  { "id": 8, "name": "Billie Eilish", "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437853/billie_zwiktw.jpg" },
+  { "id": 9, "name": "Post Malone", "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437877/PostM_cxo9bn.jpg" },
+  { "id": 10, "name": "Shawn Mendes", "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437876/mende_yyshlf.jpg" }
+],
+  "songs": [
+    { "id": 101, "artistId": 1, "title": "Shape of You" },
+    { "id": 102, "artistId": 1, "title": "Perfect" },
+    { "id": 103, "artistId": 1, "title": "Castle on the Hill" },
+    { "id": 104, "artistId": 1, "title": "Thinking Out Loud" },
+    { "id": 105, "artistId": 1, "title": "Photograph" },
+    { "id": 106, "artistId": 1, "title": "Galway Girl" },
+    { "id": 107, "artistId": 1, "title": "Happier" },
+    { "id": 108, "artistId": 1, "title": "Beautiful People" },
+    { "id": 109, "artistId": 1, "title": "I Don't Care" },
+    { "id": 110, "artistId": 1, "title": "Supermarket Flowers" },
+
+    { "id": 201, "artistId": 2, "title": "Sorry" },
+    { "id": 202, "artistId": 2, "title": "Love Yourself" },
+    { "id": 203, "artistId": 2, "title": "What Do You Mean?" },
+    { "id": 204, "artistId": 2, "title": "Baby" },
+    { "id": 205, "artistId": 2, "title": "Yummy" },
+    { "id": 206, "artistId": 2, "title": "Intentions" },
+    { "id": 207, "artistId": 2, "title": "Peaches" },
+    { "id": 208, "artistId": 2, "title": "One Time" },
+    { "id": 209, "artistId": 2, "title": "Company" },
+    { "id": 210, "artistId": 2, "title": "Boyfriend" },
+
+    { "id": 301, "artistId": 3, "title": "God's Plan" },
+    { "id": 302, "artistId": 3, "title": "In My Feelings" },
+    { "id": 303, "artistId": 3, "title": "Hotline Bling" },
+    { "id": 304, "artistId": 3, "title": "One Dance" },
+    { "id": 305, "artistId": 3, "title": "Started From the Bottom" },
+    { "id": 306, "artistId": 3, "title": "Take Care" },
+    { "id": 307, "artistId": 3, "title": "Fake Love" },
+    { "id": 308, "artistId": 3, "title": "Nonstop" },
+    { "id": 309, "artistId": 3, "title": "Toosie Slide" },
+    { "id": 310, "artistId": 3, "title": "Laugh Now Cry Later" },
+
+    { "id": 401, "artistId": 4, "title": "7 rings" },
+    { "id": 402, "artistId": 4, "title": "Thank U, Next" },
+    { "id": 403, "artistId": 4, "title": "No Tears Left to Cry" },
+    { "id": 404, "artistId": 4, "title": "Side to Side" },
+    { "id": 405, "artistId": 4, "title": "Into You" },
+    { "id": 406, "artistId": 4, "title": "Dangerous Woman" },
+    { "id": 407, "artistId": 4, "title": "Positions" },
+    { "id": 408, "artistId": 4, "title": "Break Up with Your Girlfriend" },
+    { "id": 409, "artistId": 4, "title": "Problem" },
+    { "id": 410, "artistId": 4, "title": "Love Me Harder" },
+
+    { "id": 501, "artistId": 5, "title": "Shake It Off" },
+    { "id": 502, "artistId": 5, "title": "Blank Space" },
+    { "id": 503, "artistId": 5, "title": "Bad Blood" },
+    { "id": 504, "artistId": 5, "title": "Love Story" },
+    { "id": 505, "artistId": 5, "title": "You Belong with Me" },
+    { "id": 506, "artistId": 5, "title": "Look What You Made Me Do" },
+    { "id": 507, "artistId": 5, "title": "Wildest Dreams" },
+    { "id": 508, "artistId": 5, "title": "Lover" },
+    { "id": 509, "artistId": 5, "title": "The Man" },
+    { "id": 510, "artistId": 5, "title": "Cardigan" },
+
+    { "id": 601, "artistId": 6, "title": "Halo" },
+    { "id": 602, "artistId": 6, "title": "Single Ladies" },
+    { "id": 603, "artistId": 6, "title": "Crazy In Love" },
+    { "id": 604, "artistId": 6, "title": "Formation" },
+    { "id": 605, "artistId": 6, "title": "Irreplaceable" },
+    { "id": 606, "artistId": 6, "title": "Drunk in Love" },
+    { "id": 607, "artistId": 6, "title": "Run the World" },
+    { "id": 608, "artistId": 6, "title": "If I Were a Boy" },
+    { "id": 609, "artistId": 6, "title": "Diva" },
+    { "id": 610, "artistId": 6, "title": "Love On Top" },
+
+    { "id": 701, "artistId": 7, "title": "Blinding Lights" },
+    { "id": 702, "artistId": 7, "title": "Save Your Tears" },
+    { "id": 703, "artistId": 7, "title": "Can't Feel My Face" },
+    { "id": 704, "artistId": 7, "title": "The Hills" },
+    { "id": 705, "artistId": 7, "title": "Starboy" },
+    { "id": 706, "artistId": 7, "title": "Heartless" },
+    { "id": 707, "artistId": 7, "title": "In Your Eyes" },
+    { "id": 708, "artistId": 7, "title": "I Feel It Coming" },
+    { "id": 709, "artistId": 7, "title": "Call Out My Name" },
+    { "id": 710, "artistId": 7, "title": "Often" },
+
+    { "id": 801, "artistId": 8, "title": "Bad Guy" },
+    { "id": 802, "artistId": 8, "title": "Therefore I Am" },
+    { "id": 803, "artistId": 8, "title": "Ocean Eyes" },
+    { "id": 804, "artistId": 8, "title": "Bury a Friend" },
+    { "id": 805, "artistId": 8, "title": "Everything I Wanted" },
+    { "id": 806, "artistId": 8, "title": "My Future" },
+    { "id": 807, "artistId": 8, "title": "When the Party's Over" },
+    { "id": 808, "artistId": 8, "title": "Your Power" },
+    { "id": 809, "artistId": 8, "title": "Lovely" },
+    { "id": 810, "artistId": 8, "title": "Happier Than Ever" },
+
+    { "id": 901, "artistId": 9, "title": "Circles" },
+    { "id": 902, "artistId": 9, "title": "Sunflower" },
+    { "id": 903, "artistId": 9, "title": "Rockstar" },
+    { "id": 904, "artistId": 9, "title": "Wow" },
+    { "id": 905, "artistId": 9, "title": "Better Now" },
+    { "id": 906, "artistId": 9, "title": "Goodbyes" },
+    { "id": 907, "artistId": 9, "title": "Congratulations" },
+    { "id": 908, "artistId": 9, "title": "I Fall Apart" },
+    { "id": 909, "artistId": 9, "title": "Saint-Tropez" },
+    { "id": 910, "artistId": 9, "title": "Take What You Want" },
+
+    { "id": 1001, "artistId": 10, "title": "Stitches" },
+    { "id": 1002, "artistId": 10, "title": "Treat You Better" },
+    { "id": 1003, "artistId": 10, "title": "Mercy" },
+    { "id": 1004, "artistId": 10, "title": "There's Nothing Holdin' Me Back" },
+    { "id": 1005, "artistId": 10, "title": "In My Blood" },
+    { "id": 1006, "artistId": 10, "title": "If I Can't Have You" },
+    { "id": 1007, "artistId": 10, "title": "Senorita" },
+    { "id": 1008, "artistId": 10, "title": "Lost in Japan" },
+    { "id": 1009, "artistId": 10, "title": "Wonder" },
+    { "id": 1010, "artistId": 10, "title": "Youth" }
+  ]
+}
+
