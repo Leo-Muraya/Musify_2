@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "Ed Sheeran",
-      "picture": "/https://res.cloudinary.com/dibilugya/image/upload/v1731437886/ed_eonptz.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437886/ed_eonptz.jpg"
     },
     {
       "id": "2",
@@ -49,516 +49,147 @@
       "id": "10",
       "name": "Shawn Mendes",
       "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437876/mende_yyshlf.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Bruno Mars",
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/bruno_mars_ww1jcp.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Adele",
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490963/adele_b5ejpb.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Rihanna",
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/rihanna_dxqovq.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Kanye West",
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/kanye_west_ry6fsc.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Katy Perry",
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/katy_perry_qvr8tr.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Lady Gaga",
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/lady_gaga_e1r2mt.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Bruno Mars",
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/bruno_mars_ww1jcp.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Sam Smith",
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/sam_smith_tsynyh.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Dua Lipa",
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/dua_lipa_z67wzw.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Sia",
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490966/sia_hqi2cv.jpg"
+    },
+    {
+      "id": "21",
+      "name": "Coldplay",
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/coldplay_ytiy3j.jpg"
+    },
+    {
+      "id": "22",
+      "name": "Harry Styles",
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/harry_styles_fpfvfu.jpg"
+    },
+    {
+      "id": "23",
+      "name": "Selena Gomez",
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/selena_gomez_rjltg9.jpg"
+    },
+    {
+      "id": "24",
+      "name": "Halsey",
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/halsey_sf4xc8.jpg"
+    },
+    {
+      "id": "25",
+      "name": "Cardi B",
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/cardi_b_hxydse.jpg"
     }
   ],
   "songs": [
     {
-      "id": "101",
-      "artistId": 1,
+      "id": "1",
       "title": "Shape of You",
-      "liked": false
-    },
-    {
-      "id": "102",
-      "artistId": 1,
-      "title": "Perfect",
-      "liked": false
-    },
-    {
-      "id": "103",
-      "artistId": 1,
-      "title": "Castle on the Hill",
-      "liked": false
-    },
-    {
-      "id": "104",
-      "artistId": 1,
-      "title": "Thinking Out Loud",
-      "liked": false
-    },
-    {
-      "id": "105",
-      "artistId": 1,
-      "title": "Photograph",
-      "liked": false
-    },
-    {
-      "id": "106",
-      "artistId": 1,
-      "title": "Galway Girl",
-      "liked": false
-    },
-    {
-      "id": "107",
-      "artistId": 1,
-      "title": "Happier",
-      "liked": false
-    },
-    {
-      "id": "108",
-      "artistId": 1,
-      "title": "Beautiful People",
-      "liked": false
-    },
-    {
-      "id": "109",
-      "artistId": 1,
-      "title": "I Don't Care"
-    },
-    {
-      "id": "110",
-      "artistId": 1,
-      "title": "Supermarket Flowers"
-    },
-    {
-      "id": "201",
-      "artistId": 2,
-      "title": "Sorry"
-    },
-    {
-      "id": "202",
-      "artistId": 2,
-      "title": "Love Yourself"
-    },
-    {
-      "id": "203",
-      "artistId": 2,
-      "title": "What Do You Mean?"
-    },
-    {
-      "id": "204",
-      "artistId": 2,
-      "title": "Baby"
-    },
-    {
-      "id": "205",
-      "artistId": 2,
-      "title": "Yummy"
-    },
-    {
-      "id": "206",
-      "artistId": 2,
-      "title": "Intentions"
-    },
-    {
-      "id": "207",
-      "artistId": 2,
-      "title": "Peaches"
-    },
-    {
-      "id": "208",
-      "artistId": 2,
-      "title": "One Time"
-    },
-    {
-      "id": "209",
-      "artistId": 2,
-      "title": "Company"
-    },
-    {
-      "id": "210",
-      "artistId": 2,
-      "title": "Boyfriend"
-    },
-    {
-      "id": "301",
-      "artistId": 3,
-      "title": "God's Plan"
-    },
-    {
-      "id": "302",
-      "artistId": 3,
-      "title": "In My Feelings"
-    },
-    {
-      "id": "303",
-      "artistId": 3,
-      "title": "Hotline Bling"
-    },
-    {
-      "id": "304",
-      "artistId": 3,
-      "title": "One Dance"
-    },
-    {
-      "id": "305",
-      "artistId": 3,
-      "title": "Started From the Bottom"
-    },
-    {
-      "id": "306",
-      "artistId": 3,
-      "title": "Take Care"
-    },
-    {
-      "id": "307",
-      "artistId": 3,
-      "title": "Fake Love"
-    },
-    {
-      "id": "308",
-      "artistId": 3,
-      "title": "Nonstop"
-    },
-    {
-      "id": "309",
-      "artistId": 3,
-      "title": "Toosie Slide"
-    },
-    {
-      "id": "310",
-      "artistId": 3,
-      "title": "Laugh Now Cry Later"
-    },
-    {
-      "id": "401",
-      "artistId": 4,
-      "title": "7 rings"
-    },
-    {
-      "id": "402",
-      "artistId": 4,
-      "title": "Thank U, Next"
-    },
-    {
-      "id": "403",
-      "artistId": 4,
-      "title": "No Tears Left to Cry"
-    },
-    {
-      "id": "404",
-      "artistId": 4,
-      "title": "Side to Side"
-    },
-    {
-      "id": "405",
-      "artistId": 4,
-      "title": "Into You"
-    },
-    {
-      "id": "406",
-      "artistId": 4,
-      "title": "Dangerous Woman"
-    },
-    {
-      "id": "407",
-      "artistId": 4,
-      "title": "Positions"
-    },
-    {
-      "id": "408",
-      "artistId": 4,
-      "title": "Break Up with Your Girlfriend"
-    },
-    {
-      "id": "409",
-      "artistId": 4,
-      "title": "Problem"
-    },
-    {
-      "id": "410",
-      "artistId": 4,
-      "title": "Love Me Harder"
-    },
-    {
-      "id": "501",
-      "artistId": 5,
-      "title": "Shake It Off"
-    },
-    {
-      "id": "502",
-      "artistId": 5,
-      "title": "Blank Space"
-    },
-    {
-      "id": "503",
-      "artistId": 5,
-      "title": "Bad Blood"
-    },
-    {
-      "id": "504",
-      "artistId": 5,
-      "title": "Love Story"
-    },
-    {
-      "id": "505",
-      "artistId": 5,
-      "title": "You Belong with Me"
-    },
-    {
-      "id": "506",
-      "artistId": 5,
-      "title": "Look What You Made Me Do"
-    },
-    {
-      "id": "507",
-      "artistId": 5,
-      "title": "Wildest Dreams"
-    },
-    {
-      "id": "508",
-      "artistId": 5,
-      "title": "Lover"
-    },
-    {
-      "id": "509",
-      "artistId": 5,
-      "title": "The Man"
-    },
-    {
-      "id": "510",
-      "artistId": 5,
-      "title": "Cardigan"
-    },
-    {
-      "id": "601",
-      "artistId": 6,
-      "title": "Halo"
-    },
-    {
-      "id": "602",
-      "artistId": 6,
-      "title": "Single Ladies"
-    },
-    {
-      "id": "603",
-      "artistId": 6,
-      "title": "Crazy In Love"
-    },
-    {
-      "id": "604",
-      "artistId": 6,
-      "title": "Formation"
-    },
-    {
-      "id": "605",
-      "artistId": 6,
-      "title": "Irreplaceable"
-    },
-    {
-      "id": "606",
-      "artistId": 6,
-      "title": "Drunk in Love"
-    },
-    {
-      "id": "607",
-      "artistId": 6,
-      "title": "Run the World"
-    },
-    {
-      "id": "608",
-      "artistId": 6,
-      "title": "If I Were a Boy"
-    },
-    {
-      "id": "609",
-      "artistId": 6,
-      "title": "Diva"
-    },
-    {
-      "id": "610",
-      "artistId": 6,
-      "title": "Love On Top"
-    },
-    {
-      "id": "701",
-      "artistId": 7,
-      "title": "Blinding Lights"
-    },
-    {
-      "id": "702",
-      "artistId": 7,
-      "title": "Save Your Tears"
-    },
-    {
-      "id": "703",
-      "artistId": 7,
-      "title": "Can't Feel My Face"
-    },
-    {
-      "id": "704",
-      "artistId": 7,
-      "title": "The Hills"
-    },
-    {
-      "id": "705",
-      "artistId": 7,
-      "title": "Starboy"
-    },
-    {
-      "id": "706",
-      "artistId": 7,
-      "title": "Heartless"
-    },
-    {
-      "id": "707",
-      "artistId": 7,
-      "title": "In Your Eyes"
-    },
-    {
-      "id": "708",
-      "artistId": 7,
-      "title": "I Feel It Coming"
-    },
-    {
-      "id": "709",
-      "artistId": 7,
-      "title": "Call Out My Name"
-    },
-    {
-      "id": "710",
-      "artistId": 7,
-      "title": "Often"
-    },
-    {
-      "id": "801",
-      "artistId": 8,
-      "title": "Bad Guy"
-    },
-    {
-      "id": "802",
-      "artistId": 8,
-      "title": "Therefore I Am"
-    },
-    {
-      "id": "803",
-      "artistId": 8,
-      "title": "Ocean Eyes"
-    },
-    {
-      "id": "804",
-      "artistId": 8,
-      "title": "Bury a Friend"
-    },
-    {
-      "id": "805",
-      "artistId": 8,
-      "title": "Everything I Wanted"
-    },
-    {
-      "id": "806",
-      "artistId": 8,
-      "title": "My Future"
-    },
-    {
-      "id": "807",
-      "artistId": 8,
-      "title": "When the Party's Over"
-    },
-    {
-      "id": "808",
-      "artistId": 8,
-      "title": "Your Power"
-    },
-    {
-      "id": "809",
-      "artistId": 8,
-      "title": "Lovely"
-    },
-    {
-      "id": "810",
-      "artistId": 8,
-      "title": "Happier Than Ever"
-    },
-    {
-      "id": "901",
-      "artistId": 9,
-      "title": "Circles"
-    },
-    {
-      "id": "902",
-      "artistId": 9,
-      "title": "Sunflower"
-    },
-    {
-      "id": "903",
-      "artistId": 9,
-      "title": "Rockstar"
-    },
-    {
-      "id": "904",
-      "artistId": 9,
-      "title": "Wow"
-    },
-    {
-      "id": "905",
-      "artistId": 9,
-      "title": "Better Now"
-    },
-    {
-      "id": "906",
-      "artistId": 9,
-      "title": "Goodbyes"
-    },
-    {
-      "id": "907",
-      "artistId": 9,
-      "title": "Congratulations"
-    },
-    {
-      "id": "908",
-      "artistId": 9,
-      "title": "I Fall Apart"
-    },
-    {
-      "id": "909",
-      "artistId": 9,
-      "title": "Saint-Tropez"
-    },
-    {
-      "id": "910",
-      "artistId": 9,
-      "title": "Take What You Want"
-    },
-    {
-      "id": "1001",
-      "artistId": 10,
-      "title": "Stitches"
-    },
-    {
-      "id": "1002",
-      "artistId": 10,
-      "title": "Treat You Better"
-    },
-    {
-      "id": "1003",
-      "artistId": 10,
-      "title": "Mercy"
-    },
-    {
-      "id": "1004",
-      "artistId": 10,
-      "title": "There's Nothing Holdin' Me Back"
-    },
-    {
-      "id": "1005",
-      "artistId": 10,
-      "title": "In My Blood"
-    },
-    {
-      "id": "1006",
-      "artistId": 10,
-      "title": "If I Can't Have You"
-    },
-    {
-      "id": "1007",
-      "artistId": 10,
-      "title": "Senorita"
-    },
-    {
-      "id": "1008",
-      "artistId": 10,
-      "title": "Lost in Japan"
-    },
-    {
-      "id": "1009",
-      "artistId": 10,
-      "title": "Wonder"
-    },
-    {
-      "id": "1010",
-      "artistId": 10,
-      "title": "Youth"
+      "artistId": "1",
+      "genreId": "2",
+      "albumId": "1",
+      "releaseDate": "2017-01-06",
+      "coverImageUrl": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/shape_of_you_niieah.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Peaches",
+      "artistId": "2",
+      "genreId": "3",
+      "albumId": "2",
+      "releaseDate": "2021-03-19",
+      "coverImageUrl": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/peaches_a0hw5n.jpg"
     }
+  ],
+  "genres": [
+    { "id": "1", "name": "Rock" },
+    { "id": "2", "name": "Pop" },
+    { "id": "3", "name": "R&B" },
+    { "id": "4", "name": "Hip-Hop" },
+    { "id": "5", "name": "Soul" },
+    { "id": "6", "name": "Electronic" }
+  ],
+  "playlists": [
+    {
+      "id": "1",
+      "name": "Top Hits",
+      "description": "Popular songs of the month",
+      "songIds": ["1", "2"]
+    },
+    {
+      "id": "2",
+      "name": "Chill Vibes",
+      "description": "Relaxing tunes",
+      "songIds": ["2"]
+    }
+  ],
+  "albums": [
+    {
+      "id": "1",
+      "name": "÷ (Divide)",
+      "artistId": "1",
+      "coverImageUrl": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/divide_datywl.jpg",
+      "releaseYear": 2017
+    },
+    {
+      "id": "2",
+      "name": "Justice",
+      "artistId": "2",
+      "coverImageUrl": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/justice_dqxsmw.jpg",
+      "releaseYear": 2021
+    }
+  ],
+  "topCharts": [
+    { "songId": "1", "rank": 1 },
+    { "songId": "2", "rank": 2 }
   ]
-}
+ }
+ 
+ 
+ 
+ 
