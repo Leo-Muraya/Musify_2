@@ -53,77 +53,77 @@
     {
       "id": "11",
       "name": "Bruno Mars",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437878/bruno_mars.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/bruno_mars_ww1jcp.jpg"
     },
     {
       "id": "12",
       "name": "Adele",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437854/adele.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490963/adele_b5ejpb.jpg"
     },
     {
       "id": "13",
       "name": "Rihanna",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437879/rihanna.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/rihanna_dxqovq.jpg"
     },
     {
       "id": "14",
       "name": "Kanye West",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437855/kanye_west.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/kanye_west_ry6fsc.jpg"
     },
     {
       "id": "15",
       "name": "Katy Perry",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437856/katy_perry.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/katy_perry_qvr8tr.jpg"
     },
     {
       "id": "16",
       "name": "Lady Gaga",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437887/lady_gaga.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/lady_gaga_e1r2mt.jpg"
     },
     {
       "id": "17",
       "name": "Bruno Mars",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437889/bruno_mars.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/bruno_mars_ww1jcp.jpg"
     },
     {
       "id": "18",
       "name": "Sam Smith",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437885/sam_smith.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/sam_smith_tsynyh.jpg"
     },
     {
       "id": "19",
       "name": "Dua Lipa",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437880/dua_lipa.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/dua_lipa_z67wzw.jpg"
     },
     {
       "id": "20",
       "name": "Sia",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437881/sia.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490966/sia_hqi2cv.jpg"
     },
     {
       "id": "21",
       "name": "Coldplay",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437882/coldplay.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/coldplay_ytiy3j.jpg"
     },
     {
       "id": "22",
       "name": "Harry Styles",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437883/harry_styles.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/harry_styles_fpfvfu.jpg"
     },
     {
       "id": "23",
       "name": "Selena Gomez",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437884/selena_gomez.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/selena_gomez_rjltg9.jpg"
     },
     {
       "id": "24",
       "name": "Halsey",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437888/halsey.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/halsey_sf4xc8.jpg"
     },
     {
       "id": "25",
       "name": "Cardi B",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437889/cardi_b.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/cardi_b_hxydse.jpg"
     }
   ],
   "songs": [
@@ -134,7 +134,7 @@
       "genreId": "2",
       "albumId": "1",
       "releaseDate": "2017-01-06",
-      "coverImageUrl": "https://res.cloudinary.com/example/image/upload/v123456789/shape_of_you.jpg"
+      "coverImageUrl": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/shape_of_you_niieah.jpg"
     },
     {
       "id": "2",
@@ -143,7 +143,7 @@
       "genreId": "3",
       "albumId": "2",
       "releaseDate": "2021-03-19",
-      "coverImageUrl": "https://res.cloudinary.com/example/image/upload/v123456789/peaches.jpg"
+      "coverImageUrl": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/peaches_a0hw5n.jpg"
     }
   ],
   "genres": [
@@ -173,14 +173,14 @@
       "id": "1",
       "name": "÷ (Divide)",
       "artistId": "1",
-      "coverImageUrl": "https://res.cloudinary.com/example/image/upload/v123456789/divide.jpg",
+      "coverImageUrl": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/divide_datywl.jpg",
       "releaseYear": 2017
     },
     {
       "id": "2",
       "name": "Justice",
       "artistId": "2",
-      "coverImageUrl": "https://res.cloudinary.com/example/image/upload/v123456789/justice.jpg",
+      "coverImageUrl": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/justice_dqxsmw.jpg",
       "releaseYear": 2021
     }
   ],
@@ -188,4 +188,8 @@
     { "songId": "1", "rank": 1 },
     { "songId": "2", "rank": 2 }
   ]
-}
+ }
+ 
+ 
+ 
+ 
