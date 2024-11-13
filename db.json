@@ -341,6 +341,14 @@
       "title": "Drunk in Love"
     },
     {
+      "id": "1",
+      "title": "Shape of You",
+      "artistId": "1",
+      "genreId": "2",
+      "albumId": "1",
+      "releaseDate": "2017-01-06",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731503206/Shape_Of_You__Official_Single_Cover__by_Ed_Sheeran_jlvfhx.png",
+      "liked": true
       "id": "607",
       "artistId": 6,
       "title": "Run the World"
@@ -371,6 +379,143 @@
       "title": "Save Your Tears"
     },
     {
+      "id": "2",
+      "title": "Peaches",
+      "artistId": "2",
+      "genreId": "3",
+      "albumId": "2",
+      "releaseDate": "2021-03-19",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502907/artworks-eb0MriwCeIEzf4mo-bUQc2A-t500x500_itgk4i.jpg",
+      "liked": false
+    },
+    {
+      "id": "3",
+      "title": "Blinding Lights",
+      "artistId": "7",
+      "genreId": "2",
+      "albumId": "3",
+      "releaseDate": "2019-11-29",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502909/Weekend_fccu2g.webp",
+      "liked": true
+    },
+    {
+      "id": "4",
+      "title": "Rolling in the Deep",
+      "artistId": "12",
+      "genreId": "5",
+      "albumId": "4",
+      "releaseDate": "2010-11-29",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502909/pexels-tima-miroshnichenko-6498951-scaled-e1719957675453-930x620_cprft4.jpg",
+      "liked": false
+    },
+    {
+      "id": "5",
+      "title": "Bad Guy",
+      "artistId": "8",
+      "genreId": "6",
+      "albumId": "5",
+      "releaseDate": "2019-03-29",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502908/183905_g36drj.jpg",
+      "liked": true
+    },
+    {
+      "id": "6",
+      "title": "Thank U, Next",
+      "artistId": "4",
+      "genreId": "2",
+      "albumId": "6",
+      "releaseDate": "2018-11-03",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502907/images_adyjup.jpg",
+      "liked": false
+    },
+    {
+      "id": "7",
+      "title": "God's Plan",
+      "artistId": "3",
+      "genreId": "4",
+      "albumId": "7",
+      "releaseDate": "2018-01-19",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502908/images_1_ptw9jm.jpg",
+      "liked": true
+    },
+    {
+      "id": "8",
+      "title": "Senorita",
+      "artistId": "10",
+      "genreId": "2",
+      "albumId": "8",
+      "releaseDate": "2019-06-21",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502907/artworks-WWvTQsVwwR1Px9iE-O1sgTg-t500x500_qwsn81.jpg",
+      "liked": false
+    },
+    {
+      "id": "9",
+      "title": "Havana",
+      "artistId": "4",
+      "genreId": "3",
+      "albumId": "9",
+      "releaseDate": "2017-08-03",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502908/Havana__featuring_Young_Thug___Official_Single_Cover__by_Camila_Cabello_fgfe8g.png",
+      "liked": true
+    },
+    {
+      "id": "10",
+      "title": "Levitating",
+      "artistId": "19",
+      "genreId": "6",
+      "albumId": "10",
+      "releaseDate": "2020-10-01",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502908/artworks-Y2mB2Xn4YVfTuxNI-zsZd7w-t1080x1080_t99kj6.jpg",
+      "liked": false
+    },
+    {
+      "id": "11",
+      "title": "Uptown Funk",
+      "artistId": "11",
+      "genreId": "2",
+      "albumId": "11",
+      "releaseDate": "2014-11-10",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502909/uptown-funk-songwriters_us1sho.webp",
+      "liked": true
+    },
+    {
+      "id": "12",
+      "title": "We Found Love",
+      "artistId": "13",
+      "genreId": "5",
+      "albumId": "12",
+      "releaseDate": "2011-09-22",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502908/artworks-56ktybIKAcToy9x8-fGDWzA-t1080x1080_unafqf.jpg",
+      "liked": false
+    }
+],
+  "genres": [
+    {
+      "id": "1",
+      "name": "Rock"
+    },
+    {
+      "id": "2",
+      "name": "Pop"
+    },
+    {
+      "id": "3",
+      "name": "R&B"
+    },
+    {
+      "id": "4",
+      "name": "Hip-Hop"
+    },
+    {
+      "id": "5",
+      "name": "Soul"
+    },
+    {
+      "id": "6",
+      "name": "Electronic"
+    }
+  ],
+  "playlists": [
       "id": "703",
       "artistId": 7,
       "title": "Can't Feel My Face"
@@ -446,6 +591,13 @@
       "title": "When the Party's Over"
     },
     {
+      "id": "1",
+      "name": "Top Hits",
+      "description": "Popular songs of the month",
+      "songIds": [
+        "1",
+        "2"
+      ]
       "id": "808",
       "artistId": 8,
       "title": "Your Power"
@@ -461,6 +613,15 @@
       "title": "Happier Than Ever"
     },
     {
+      "id": "2",
+      "name": "Chill Vibes",
+      "description": "Relaxing tunes",
+      "songIds": [
+        "2"
+      ]
+    }
+  ],
+  "albums": [
       "id": "901",
       "artistId": 9,
       "title": "Circles"
@@ -516,6 +677,26 @@
       "title": "Stitches"
     },
     {
+      "id": "2",
+      "name": "Justice",
+      "artistId": "2",
+      "coverImageUrl": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/justice_dqxsmw.jpg",
+      "releaseYear": 2021
+    }
+  ],
+  "topCharts": [
+    {
+      "songId": "1",
+      "rank": 1,
+      "id": "2247"
+    },
+    {
+      "songId": "2",
+      "rank": 2,
+      "id": "ffe9"
+    }
+  ]
+}
       "id": "1002",
       "artistId": 10,
       "title": "Treat You Better"
