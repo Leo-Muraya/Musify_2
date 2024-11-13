@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import styles from './Songs.module.css';
 
 const Songs = () => {
   const [songs, setSongs] = useState([]);
@@ -7,7 +8,6 @@ const Songs = () => {
   const [likedSongs, setLikedSongs] = useState({});
   const [showArtistDetails, setShowArtistDetails] = useState({});
 
-  // Fetch songs
   useEffect(() => {
     fetch('http://localhost:3000/songs')
       .then((response) => response.json())
@@ -15,7 +15,6 @@ const Songs = () => {
       .catch((error) => console.error('Error fetching songs:', error));
   }, []);
 
-  // Fetch artists
   useEffect(() => {
     fetch('http://localhost:3000/artists')
       .then((response) => response.json())
@@ -23,7 +22,6 @@ const Songs = () => {
       .catch((error) => console.error('Error fetching artists:', error));
   }, []);
 
-  // Add new song
   const handleAddSong = () => {
     fetch('http://localhost:3000/songs', {
       method: 'POST',
@@ -35,12 +33,11 @@ const Songs = () => {
       .then((response) => response.json())
       .then((addedSong) => {
         setSongs([...songs, addedSong]);
-        setNewSong({ title: '', artistId: '' });  
+        setNewSong({ title: '', artistId: '' });
       })
       .catch((error) => console.error('Error adding song:', error));
   };
 
-  // Toggle like/dislike for song
   const handleLikeSong = (id) => {
     const updatedLikes = { ...likedSongs, [id]: !likedSongs[id] };
     setLikedSongs(updatedLikes);
@@ -57,7 +54,6 @@ const Songs = () => {
       .catch((error) => console.error('Error updating like status:', error));
   };
 
-  // Toggle artist details dropdown
   const toggleArtistDetails = (id) => {
     setShowArtistDetails((prevState) => ({
       ...prevState,
@@ -65,74 +61,15 @@ const Songs = () => {
     }));
   };
 
+  const getBio = (song, artist) => {
+    return artist?.bio || `This is a great song titled "${song.title}" by ${artist?.name || 'an amazing artist'}.`;
+  };
+
   return (
-    <div>
+    <div className={styles.songs}>
       <h1>Songs</h1>
 
-      {/* Display songs */}
-      <div>
-        {songs.map((song) => {
-          const artist = artists.find((artist) => artist.id === song.artistId);
-          return (
-            <div key={song.id} style={{ marginBottom: '20px' }}>
-              <div
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  cursor: 'pointer',
-                  marginBottom: '10px',
-                }}
-                onClick={() => toggleArtistDetails(song.id)}
-              >
-                {artist && (
-                  <img
-                    src={artist.picture}
-                    alt={artist.name}
-                    width="50"
-                    height="50"
-                    style={{ marginRight: '10px', borderRadius: '50%' }}
-                  />
-                )}
-                <h2>{song.title}</h2>
-              </div>
-
-              {/* Artist details dropdown */}
-              {showArtistDetails[song.id] && artist && (
-                <div style={{ marginLeft: '60px', marginBottom: '10px' }}>
-                  <p><strong>Artist:</strong> {artist.name}</p>
-                  <p><strong>Genre:</strong> {artist.genre}</p>
-                  <p><strong>Bio:</strong> {artist.bio}</p>
-                </div>
-              )}
-
-              {/* Like button */}
-              <button
-                onClick={() => handleLikeSong(song.id)}
-                style={{
-                  backgroundColor: likedSongs[song.id] ? 'green' : 'red',
-                  color: 'white',
-                  fontSize: '20px',
-                  padding: '10px',
-                  border: 'none',
-                  borderRadius: '5px',
-                  cursor: 'pointer',
-                  marginLeft: '10px',
-                }}
-              >
-                {likedSongs[song.id] ? (
-                  <span role="img" aria-label="heart">❤️</span>
-                ) : (
-                  <span role="img" aria-label="heart">🤍</span>
-                )}
-                {likedSongs[song.id] ? ' Dislike' : ' Like'}
-              </button>
-            </div>
-          );
-        })}
-      </div>
-
-      {/* Add new song */}
-      <div>
+      <div className={styles.addSongContainer}>
         <h3>Add a New Song</h3>
         <input
           type="text"
@@ -147,6 +84,42 @@ const Songs = () => {
           onChange={(e) => setNewSong({ ...newSong, artistId: e.target.value })}
         />
         <button onClick={handleAddSong}>Add Song</button>
+      </div>
+
+      <div>
+        {songs.map((song) => {
+          const artist = artists.find((artist) => artist.id === song.artistId);
+          return (
+            <div key={song.id} className={styles.songItem}>
+              <div
+                className={styles.songTitle}
+                onClick={() => toggleArtistDetails(song.id)}
+              >
+                {artist && (
+                  <img
+                    src={artist.picture}
+                    alt={artist.name}
+                    className={styles.artistImage}
+                  />
+                )}
+                <h2>{song.title}</h2>
+              </div>
+
+              {showArtistDetails[song.id] && (
+                <div className={styles.songDetails}>
+                  <p><strong>Bio:</strong> {getBio(song, artist)}</p>
+                </div>
+              )}
+
+              <button
+                onClick={() => handleLikeSong(song.id)}
+                className={`${styles.likeButton} ${likedSongs[song.id] ? styles.liked : ''}`}
+              >
+                {likedSongs[song.id] ? '❤️ Dislike' : '🤍 Like'}
+              </button>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

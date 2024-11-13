@@ -56,7 +56,7 @@
       "id": "101",
       "artistId": 1,
       "title": "Shape of You",
-      "liked": true
+      "liked": false
     },
     {
       "id": "102",
