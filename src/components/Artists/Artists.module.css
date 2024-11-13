@@ -1,5 +1,81 @@
-.Artists {
-    background-color: black;
-}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .cardsContainer {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cardGrid {
+    background-color: #2A292B;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  /* Card Styling */
+  .card {
+    background-color: #FF9900;
+    border-radius: 50%; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px; 
+    height: 250px; 
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 0;
+  }
+  
+  
+  .cardImageContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  
+  .cardFooter {
+    background-color: #FF9900;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border-radius: 50%;
+    position: relative;
+    bottom: 0;
+  }
+  
+  .cardName {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: oblique;
+    color: #333;
+    margin-top: 10px;
+    background-color: #FF9900;
+  }
+  
+  
+  .card:hover {
+    transform: translateY(-10px);
+    background-color: #FFEBCC;
+  }
 
 
+
+
+  

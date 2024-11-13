@@ -1,31 +1,36 @@
-import React, {useState, useEffect} from 'react';
-import PropTypes, { func }from 'prop-types';
-import styles from './Artists.module.css';
+import React, { useState, useEffect } from 'react';
+import styles from './Artists.module.css'; // Assuming you are using CSS Modules
 
-
-//artist display
 function Artists() {
   const [artists, setArtists] = useState([]);
 
   useEffect(() => {
-     fetch('http://localhost:3000/artists')
-     .then(res => res.json()) 
-     .then(data => setArtists(data)) 
-     .catch(error => console.error("Error:", error));
+    fetch('http://localhost:3000/artists')
+      .then((res) => res.json())
+      .then((data) => setArtists(data))
+      .catch((error) => console.error('Error:', error));
   }, []);
- 
+
   return (
-   <div >
-     <h1>Artists</h1>
-     <ul>
-       {artists.map(artists => (
-         <li key={artists.id}>
-           <h2>{artists.name}</h2>
-           <img src={artists.picture} alt={artists.name} width="200" />
-         </li>
-       ))}
-     </ul>
-   </div>
+    <section className={styles.cardsContainer}>
+      <h1 >Artists</h1>
+      <div className={styles.cardGrid}>
+        {artists.map((artist) => (
+          <article key={artist.id} className={styles.card}>
+            <div className={styles.cardImageContainer}>
+              <img
+                src={artist.picture}
+                alt={artist.name}
+                className={styles.cardImage}
+              />
+            </div>
+            <footer className={styles.cardFooter}>
+              <h2 className={styles.cardName}>{artist.name}</h2>
+            </footer>
+          </article>
+        ))}
+      </div>
+    </section>
   );
 }
 
