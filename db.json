@@ -1,6 +1,6 @@
 {
   "artists": [
-  { "id": 1, "name": "Ed Sheeran", "picture": "/https://res.cloudinary.com/dibilugya/image/upload/v1731437886/ed_eonptz.jpg" },
+  { "id": 1, "name": "Ed Sheeran", "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437886/ed_eonptz.jpg" },
   { "id": 2, "name": "Justin Bieber", "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731415870/Justin_d3rldw.jpg" },
   { "id": 3, "name": "Drake", "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731416155/drake_icargh.jpg" },
   { "id": 4, "name": "Ariana Grande", "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437852/ariana_gtqrna.jpg" },
