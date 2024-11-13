@@ -1,11 +1,10 @@
 import './App.css';
 import Songs from './components/Songs/Songs';
-
-function App() {
+ function App() {
   return (
     <div className="App">
       <Songs />
-    </div>
+     </div>
   );
 }
 

@@ -49,7 +49,6 @@ const Songs = () => {
       },
       body: JSON.stringify({ liked: updatedLikes[id] }),
     })
-      .then((response) => response.json())
       .then(() => console.log('Song like status updated'))
       .catch((error) => console.error('Error updating like status:', error));
   };
@@ -59,6 +58,17 @@ const Songs = () => {
       ...prevState,
       [id]: !prevState[id],
     }));
+  };
+
+  const handleDeleteSong = (id) => {
+    fetch(`http://localhost:3000/songs/${id}`, {
+      method: 'DELETE',
+    })
+      .then(() => {
+        setSongs(songs.filter((song) => song.id !== id));
+        console.log('Song deleted');
+      })
+      .catch((error) => console.error('Error deleting song:', error));
   };
 
   const getBio = (song, artist) => {
@@ -91,6 +101,13 @@ const Songs = () => {
           const artist = artists.find((artist) => artist.id === song.artistId);
           return (
             <div key={song.id} className={styles.songItem}>
+              {song.coverImageUrl && (
+                <img
+                  src={song.coverImageUrl}
+                  alt={song.title}
+                  className={styles.coverImage}
+                />
+              )}
               <div
                 className={styles.songTitle}
                 onClick={() => toggleArtistDetails(song.id)}
@@ -116,6 +133,13 @@ const Songs = () => {
                 className={`${styles.likeButton} ${likedSongs[song.id] ? styles.liked : ''}`}
               >
                 {likedSongs[song.id] ? '❤️ Dislike' : '🤍 Like'}
+              </button>
+
+              <button
+                onClick={() => handleDeleteSong(song.id)}
+                className={styles.deleteButton}
+              >
+                 Delete
               </button>
             </div>
           );

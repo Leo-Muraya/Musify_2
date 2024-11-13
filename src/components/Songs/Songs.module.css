@@ -1,5 +1,5 @@
 .songs {
-  background-color: #181818; /* Dark background */
+  background-color: #181818;
   color: white;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 20px;
@@ -54,6 +54,10 @@
   border-radius: 8px;
   margin-bottom: 15px;
   transition: background-color 0.2s;
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .songItem:hover {
@@ -75,9 +79,17 @@
   margin-right: 15px;
 }
 
+.coverImage {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
 .songTitle h2 {
   font-size: 20px;
   font-weight: 600;
+  text-align: center;
 }
 
 .songDetails {
@@ -115,3 +127,25 @@
 button:focus {
   outline: none;
 }
+
+.deleteButton {
+  background-color: #e74c3c; 
+  color: white;
+  padding: 6px 12px;  
+  margin-left: 15px;  
+  border: none;  
+  border-radius: 4px;  
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.deleteButton:hover {
+  background-color: #c0392b;  
+}
+
+.deleteButton:active {
+  transform: scale(0.98);  
+}
+
+

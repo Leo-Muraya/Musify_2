@@ -134,7 +134,8 @@
       "genreId": "2",
       "albumId": "1",
       "releaseDate": "2017-01-06",
-      "coverImageUrl": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/shape_of_you_niieah.jpg"
+      "coverImageUrl": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/shape_of_you_niieah.jpg",
+      "liked": false
     },
     {
       "id": "2",
@@ -143,29 +144,53 @@
       "genreId": "3",
       "albumId": "2",
       "releaseDate": "2021-03-19",
-      "coverImageUrl": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/peaches_a0hw5n.jpg"
+      "coverImageUrl": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/peaches_a0hw5n.jpg",
+      "liked": false
     }
   ],
   "genres": [
-    { "id": "1", "name": "Rock" },
-    { "id": "2", "name": "Pop" },
-    { "id": "3", "name": "R&B" },
-    { "id": "4", "name": "Hip-Hop" },
-    { "id": "5", "name": "Soul" },
-    { "id": "6", "name": "Electronic" }
+    {
+      "id": "1",
+      "name": "Rock"
+    },
+    {
+      "id": "2",
+      "name": "Pop"
+    },
+    {
+      "id": "3",
+      "name": "R&B"
+    },
+    {
+      "id": "4",
+      "name": "Hip-Hop"
+    },
+    {
+      "id": "5",
+      "name": "Soul"
+    },
+    {
+      "id": "6",
+      "name": "Electronic"
+    }
   ],
   "playlists": [
     {
       "id": "1",
       "name": "Top Hits",
       "description": "Popular songs of the month",
-      "songIds": ["1", "2"]
+      "songIds": [
+        "1",
+        "2"
+      ]
     },
     {
       "id": "2",
       "name": "Chill Vibes",
       "description": "Relaxing tunes",
-      "songIds": ["2"]
+      "songIds": [
+        "2"
+      ]
     }
   ],
   "albums": [
@@ -185,11 +210,15 @@
     }
   ],
   "topCharts": [
-    { "songId": "1", "rank": 1 },
-    { "songId": "2", "rank": 2 }
+    {
+      "songId": "1",
+      "rank": 1,
+      "id": "2247"
+    },
+    {
+      "songId": "2",
+      "rank": 2,
+      "id": "ffe9"
+    }
   ]
- }
- 
- 
- 
- 
+}
