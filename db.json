@@ -3,12 +3,12 @@
     {
       "id": "1",
       "name": "Ed Sheeran",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731569342/download_llcan5.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437886/ed_eonptz.jpg"
     },
     {
       "id": "2",
       "name": "Justin Bieber",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731569404/biba_gpfjop.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731415870/Justin_d3rldw.jpg"
     },
     {
       "id": "3",
@@ -82,46 +82,41 @@
     },
     {
       "id": "17",
-      "name": "Bruno Mars",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/bruno_mars_ww1jcp.jpg"
-    },
-    {
-      "id": "18",
       "name": "Sam Smith",
       "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/sam_smith_tsynyh.jpg"
     },
     {
-      "id": "19",
+      "id": "18",
       "name": "Dua Lipa",
       "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/dua_lipa_z67wzw.jpg"
     },
     {
-      "id": "20",
+      "id": "19",
       "name": "Sia",
       "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490966/sia_hqi2cv.jpg"
     },
     {
-      "id": "21",
+      "id": "20",
       "name": "Coldplay",
       "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/coldplay_ytiy3j.jpg"
     },
     {
-      "id": "22",
+      "id": "21",
       "name": "Harry Styles",
       "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/harry_styles_fpfvfu.jpg"
     },
     {
-      "id": "23",
+      "id": "22",
       "name": "Selena Gomez",
       "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/selena_gomez_rjltg9.jpg"
     },
     {
-      "id": "24",
+      "id": "23",
       "name": "Halsey",
       "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/halsey_sf4xc8.jpg"
     },
     {
-      "id": "25",
+      "id": "24",
       "name": "Cardi B",
       "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/cardi_b_hxydse.jpg"
     }
@@ -241,11 +236,11 @@
   "genres": [
     {
       "id": "1",
-      "name": "Rock"
+      "name": "Pop"
     },
     {
       "id": "2",
-      "name": "Pop"
+      "name": "Dance"
     },
     {
       "id": "3",
@@ -253,7 +248,7 @@
     },
     {
       "id": "4",
-      "name": "Hip-Hop"
+      "name": "Hip Hop"
     },
     {
       "id": "5",
@@ -261,7 +256,65 @@
     },
     {
       "id": "6",
-      "name": "Electronic"
+      "name": "Alternative"
+    }
+  ],
+  "albums": [
+    {
+      "id": "1",
+      "title": "Divide",
+      "artistId": "1",
+      "releaseDate": "2017-03-03",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502907/Divide_ed_qcfuwn.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Justice",
+      "artistId": "2",
+      "releaseDate": "2021-03-19",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502908/justice_yt3d7p.jpg"
+    },
+    {
+      "id": "3",
+      "title": "After Hours",
+      "artistId": "7",
+      "releaseDate": "2020-03-20",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502907/after_hours_cxjtxr.jpg"
+    },
+    {
+      "id": "4",
+      "title": "21",
+      "artistId": "12",
+      "releaseDate": "2011-01-24",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502908/21_adele_wbsbj9.jpg"
+    },
+    {
+      "id": "5",
+      "title": "When We All Fall Asleep, Where Do We Go?",
+      "artistId": "8",
+      "releaseDate": "2019-03-29",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502907/billie_eilish_fz2lrj.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Sweetener",
+      "artistId": "4",
+      "releaseDate": "2018-08-17",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502908/sweetener_rytpb2.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Scorpion",
+      "artistId": "3",
+      "releaseDate": "2018-06-29",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502907/scorpion_drake_y9gs0o.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Purpose",
+      "artistId": "2",
+      "releaseDate": "2015-11-09",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502907/purpose_justin_ygoq5d.jpg"
     }
   ]
 }
