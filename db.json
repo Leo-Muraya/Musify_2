@@ -237,5 +237,31 @@
       "songIds": ["4", "6", "8"],
       "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731571733/Throw_Back_Classic_wapwvl.jpg"
     }
+  ],
+  "genres": [
+    {
+      "id": "1",
+      "name": "Rock"
+    },
+    {
+      "id": "2",
+      "name": "Pop"
+    },
+    {
+      "id": "3",
+      "name": "R&B"
+    },
+    {
+      "id": "4",
+      "name": "Hip-Hop"
+    },
+    {
+      "id": "5",
+      "name": "Soul"
+    },
+    {
+      "id": "6",
+      "name": "Electronic"
+    }
   ]
 }
