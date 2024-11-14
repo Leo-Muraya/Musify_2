@@ -3,12 +3,12 @@
     {
       "id": "1",
       "name": "Ed Sheeran",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437886/ed_eonptz.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731569342/download_llcan5.jpg"
     },
     {
       "id": "2",
       "name": "Justin Bieber",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731415870/Justin_d3rldw.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731569404/biba_gpfjop.jpg"
     },
     {
       "id": "3",
@@ -18,17 +18,17 @@
     {
       "id": "4",
       "name": "Ariana Grande",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437852/ariana_gtqrna.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731580592/z_ct2uol.jpg"
     },
     {
       "id": "5",
       "name": "Taylor Swift",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437877/taylor_petewc.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731580592/zz_jcnwct.jpg"
     },
     {
       "id": "6",
       "name": "Beyonce",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437852/beyonce_bdtzhu.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731569342/habibi_oancl6.jpg"
     },
     {
       "id": "7",
@@ -88,7 +88,7 @@
     {
       "id": "18",
       "name": "Sam Smith",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731490965/sam_smith_tsynyh.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731579753/dog_hhvroq.gif"
     },
     {
       "id": "19",
@@ -154,7 +154,7 @@
       "genreId": "2",
       "albumId": "3",
       "releaseDate": "2019-11-29",
-      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502909/Weekend_fccu2g.webp",
+      "coverImageUrl": "https://res.cloudinary.com/dibilugya/image/upload/v1731580593/zzz_qgvvok.jpg",
       "liked": true
     },
     {
@@ -279,18 +279,29 @@
       "id": "1",
       "name": "Top Hits",
       "description": "Popular songs of the month",
-      "songIds": [
-        "1",
-        "2"
-      ]
+      "songIds": ["1", "2"],
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731571733/Top_Hits_umijo4.jpg"
     },
     {
       "id": "2",
       "name": "Chill Vibes",
       "description": "Relaxing tunes",
-      "songIds": [
-        "2"
-      ]
+      "songIds": ["2"],
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731571733/CHILL_VIBES_la7ahf.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Workout Mix",
+      "description": "High-energy songs for the gym",
+      "songIds": ["3", "5", "7"],
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731571733/Workout_Mix_bbipd1.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Throwback Classics",
+      "description": "Hits from the past decades",
+      "songIds": ["4", "6", "8"],
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731571733/Throw_Back_Classic_wapwvl.jpg"
     }
   ],
   "albums": [
@@ -322,3 +333,4 @@
     }
   ]
 }
+
