@@ -4,7 +4,7 @@ import styles from './Songs.module.css';
 const Songs = () => {
   const [songs, setSongs] = useState([]);
   const [artists, setArtists] = useState([]);
-  const [newSong, setNewSong] = useState({ title: '', artistId: '' });
+  const [newSong, setNewSong] = useState({ title: '', artistId: '', imageUrl: '' });
   const [likedSongs, setLikedSongs] = useState({});
   const [showArtistDetails, setShowArtistDetails] = useState({});
 
@@ -33,7 +33,7 @@ const Songs = () => {
       .then((response) => response.json())
       .then((addedSong) => {
         setSongs([...songs, addedSong]);
-        setNewSong({ title: '', artistId: '' });
+        setNewSong({ title: '', artistId: '', imageUrl: '' });
       })
       .catch((error) => console.error('Error adding song:', error));
   };
@@ -77,7 +77,7 @@ const Songs = () => {
 
   return (
     <div className={styles.songs}>
-      <h1>Songs</h1>
+      <h1 className={styles.title}>Songs</h1>
 
       <div className={styles.addSongContainer}>
         <h3>Add a New Song</h3>
@@ -92,6 +92,12 @@ const Songs = () => {
           placeholder="Artist ID"
           value={newSong.artistId}
           onChange={(e) => setNewSong({ ...newSong, artistId: e.target.value })}
+        />
+        <input
+          type="text"
+          placeholder="Image URL"
+          value={newSong.imageUrl}
+          onChange={(e) => setNewSong({ ...newSong, imageUrl: e.target.value })}
         />
         <button onClick={handleAddSong}>Add Song</button>
       </div>
@@ -128,19 +134,24 @@ const Songs = () => {
                 </div>
               )}
 
-              <button
-                onClick={() => handleLikeSong(song.id)}
-                className={`${styles.likeButton} ${likedSongs[song.id] ? styles.liked : ''}`}
-              >
-                {likedSongs[song.id] ? '❤️ Dislike' : '🤍 Like'}
-              </button>
+              <div className={styles.actionButtons}>
+                <button
+                  onClick={() => handleLikeSong(song.id)}
+                  className={`${styles.likeButton} ${likedSongs[song.id] ? styles.liked : ''}`}
+                  style={{
+                    backgroundColor: likedSongs[song.id] ? 'green' : 'red',
+                  }}
+                >
+                  ❤️
+                </button>
 
-              <button
-                onClick={() => handleDeleteSong(song.id)}
-                className={styles.deleteButton}
-              >
-                 Delete
-              </button>
+                <button
+                  onClick={() => handleDeleteSong(song.id)}
+                  className={styles.deleteButton}
+                >
+                  X
+                </button>
+              </div>
             </div>
           );
         })}

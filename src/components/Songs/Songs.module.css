@@ -1,3 +1,13 @@
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #1db954, #1aa34a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
 .songs {
   background-color: #181818;
   color: white;
@@ -53,15 +63,10 @@
   background-color: #282828;
   border-radius: 8px;
   margin-bottom: 15px;
-  transition: background-color 0.2s;
   width: 100%;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.songItem:hover {
-  background-color: #333;
 }
 
 .songTitle {
@@ -86,66 +91,45 @@
   margin-bottom: 15px;
 }
 
-.songTitle h2 {
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
-}
-
 .songDetails {
   text-align: center;
   margin-top: 10px;
   font-size: 14px;
   color: #b3b3b3;
-  padding: 0 20px;
 }
 
-.likeButton {
-  padding: 12px 25px;
-  background-color: #1db954;
+.actionButtons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.likeButton,
+.deleteButton {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
   border: none;
-  border-radius: 50px;
-  font-size: 16px;
+  border-radius: 50%;
   cursor: pointer;
-  transition: background-color 0.3s;
-  margin-top: 10px;
+  font-size: 18px;
 }
 
 .likeButton:hover {
   background-color: #1aa34a;
 }
 
-.liked {
-  background-color: #1db954 !important;
-}
-
-.liked:hover {
-  background-color: #1aa34a !important;
-}
-
-button:focus {
-  outline: none;
-}
-
 .deleteButton {
-  background-color: #e74c3c; 
-  color: white;
-  padding: 6px 12px;  
-  margin-left: 15px;  
-  border: none;  
-  border-radius: 4px;  
-  cursor: pointer;
-  font-size: 14px;
-  transition: background-color 0.2s ease;
+  background-color: #e74c3c;
 }
 
 .deleteButton:hover {
-  background-color: #c0392b;  
+  background-color: #c0392b;
 }
 
-.deleteButton:active {
-  transform: scale(0.98);  
+.liked {
+  background-color: green;
 }
-
-
