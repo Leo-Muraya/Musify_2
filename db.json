@@ -3,12 +3,12 @@
     {
       "id": "1",
       "name": "Ed Sheeran",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731437886/ed_eonptz.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731569342/download_llcan5.jpg"
     },
     {
       "id": "2",
       "name": "Justin Bieber",
-      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731415870/Justin_d3rldw.jpg"
+      "picture": "https://res.cloudinary.com/dibilugya/image/upload/v1731569404/biba_gpfjop.jpg"
     },
     {
       "id": "3",
@@ -199,79 +199,13 @@
     },
     {
       "id": "8",
-      "title": "Senorita",
-      "artistId": "10",
-      "genreId": "2",
+      "title": "Sorry",
+      "artistId": "2",
+      "genreId": "4",
       "albumId": "8",
-      "releaseDate": "2019-06-21",
-      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502907/artworks-WWvTQsVwwR1Px9iE-O1sgTg-t500x500_qwsn81.jpg",
-      "liked": true
-    },
-    {
-      "id": "9",
-      "title": "Havana",
-      "artistId": "4",
-      "genreId": "3",
-      "albumId": "9",
-      "releaseDate": "2017-08-03",
-      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502908/Havana__featuring_Young_Thug___Official_Single_Cover__by_Camila_Cabello_fgfe8g.png",
-      "liked": true
-    },
-    {
-      "id": "10",
-      "title": "Levitating",
-      "artistId": "19",
-      "genreId": "6",
-      "albumId": "10",
-      "releaseDate": "2020-10-01",
-      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502908/artworks-Y2mB2Xn4YVfTuxNI-zsZd7w-t1080x1080_t99kj6.jpg",
-      "liked": true
-    },
-    {
-      "id": "11",
-      "title": "Uptown Funk",
-      "artistId": "11",
-      "genreId": "2",
-      "albumId": "11",
-      "releaseDate": "2014-11-10",
-      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502909/uptown-funk-songwriters_us1sho.webp",
-      "liked": true
-    },
-    {
-      "id": "12",
-      "title": "We Found Love",
-      "artistId": "13",
-      "genreId": "5",
-      "albumId": "12",
-      "releaseDate": "2011-09-22",
-      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502908/artworks-56ktybIKAcToy9x8-fGDWzA-t1080x1080_unafqf.jpg",
-      "liked": true
-    }
-  ],
-  "genres": [
-    {
-      "id": "1",
-      "name": "Rock"
-    },
-    {
-      "id": "2",
-      "name": "Pop"
-    },
-    {
-      "id": "3",
-      "name": "R&B"
-    },
-    {
-      "id": "4",
-      "name": "Hip-Hop"
-    },
-    {
-      "id": "5",
-      "name": "Soul"
-    },
-    {
-      "id": "6",
-      "name": "Electronic"
+      "releaseDate": "2015-10-22",
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502908/images_f4rj0m.jpg",
+      "liked": false
     }
   ],
   "playlists": [
@@ -279,46 +213,29 @@
       "id": "1",
       "name": "Top Hits",
       "description": "Popular songs of the month",
-      "songIds": [
-        "1",
-        "2"
-      ]
+      "songIds": ["1", "2"],
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731571733/Top_Hits_umijo4.jpg"
     },
     {
       "id": "2",
       "name": "Chill Vibes",
       "description": "Relaxing tunes",
-      "songIds": [
-        "2"
-      ]
-    }
-  ],
-  "albums": [
-    {
-      "id": "1",
-      "name": "÷ (Divide)",
-      "artistId": "1",
-      "coverImageUrl": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/divide_datywl.jpg",
-      "releaseYear": 2017
+      "songIds": ["2"],
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731571733/CHILL_VIBES_la7ahf.jpg"
     },
     {
-      "id": "2",
-      "name": "Justice",
-      "artistId": "2",
-      "coverImageUrl": "https://res.cloudinary.com/dibilugya/image/upload/v1731490964/justice_dqxsmw.jpg",
-      "releaseYear": 2021
-    }
-  ],
-  "topCharts": [
-    {
-      "songId": "1",
-      "rank": 1,
-      "id": "2247"
+      "id": "3",
+      "name": "Workout Mix",
+      "description": "High-energy songs for the gym",
+      "songIds": ["3", "5", "7"],
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731571733/Workout_Mix_bbipd1.jpg"
     },
     {
-      "songId": "2",
-      "rank": 2,
-      "id": "ffe9"
+      "id": "4",
+      "name": "Throwback Classics",
+      "description": "Hits from the past decades",
+      "songIds": ["4", "6", "8"],
+      "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731571733/Throw_Back_Classic_wapwvl.jpg"
     }
   ]
 }
