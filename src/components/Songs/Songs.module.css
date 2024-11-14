@@ -1,0 +1,135 @@
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #1db954, #1aa34a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.songs {
+  background-color: #181818;
+  color: white;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 20px;
+}
+
+.addSongContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #282828;
+  border-radius: 8px;
+}
+
+.addSongContainer h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.addSongContainer input {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #121212;
+  border: 1px solid #404040;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.addSongContainer button {
+  padding: 10px 20px;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addSongContainer button:hover {
+  background-color: #1aa34a;
+}
+
+.songItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #282828;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.songTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.artistImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.coverImage {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.songDetails {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.likeButton,
+.deleteButton {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.likeButton:hover {
+  background-color: #1aa34a;
+}
+
+.deleteButton {
+  background-color: #e74c3c;
+}
+
+.deleteButton:hover {
+  background-color: #c0392b;
+}
+
+.liked {
+  background-color: green;
+}

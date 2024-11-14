@@ -145,7 +145,7 @@
       "albumId": "2",
       "releaseDate": "2021-03-19",
       "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502907/artworks-eb0MriwCeIEzf4mo-bUQc2A-t500x500_itgk4i.jpg",
-      "liked": false
+      "liked": true
     },
     {
       "id": "3",
@@ -165,7 +165,7 @@
       "albumId": "4",
       "releaseDate": "2010-11-29",
       "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502909/pexels-tima-miroshnichenko-6498951-scaled-e1719957675453-930x620_cprft4.jpg",
-      "liked": false
+      "liked": true
     },
     {
       "id": "5",
@@ -185,7 +185,7 @@
       "albumId": "6",
       "releaseDate": "2018-11-03",
       "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502907/images_adyjup.jpg",
-      "liked": false
+      "liked": true
     },
     {
       "id": "7",
