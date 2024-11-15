@@ -145,7 +145,7 @@
       "albumId": "2",
       "releaseDate": "2021-03-19",
       "coverImageUrl": "https://res.cloudinary.com/dulnfomcr/image/upload/v1731502907/artworks-eb0MriwCeIEzf4mo-bUQc2A-t500x500_itgk4i.jpg",
-      "liked": true
+      "liked": false
     },
     {
       "id": "3",
