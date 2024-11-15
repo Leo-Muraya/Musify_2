@@ -30,6 +30,9 @@ npm start run this in another terminal.
 
 ## 👥 Users and Collaborators
 
+## Deployed Project Link
+https://musify-2.vercel.app/
+
 This project was created and developed with contributions from:
 
 - *Keith Githinji* - [keith.githinji@student.moringaschool.com](mailto:keith.githinji@student.moringaschool.com)
